@@ -1,0 +1,58 @@
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
+.button {
+  width: 25%;
+  height: 100%;
+  border: 1px solid #c8cacc;
+
+  button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font: 400 20px/20px Arial, sans-serif;
+  }
+}
+
+.zeroButton {
+  width: 50%;
+  border: 1px solid #c8cacc;
+
+  button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font: 400 20px/20px Arial, sans-serif;
+  }
+}
+
+.grey {
+  background-color: #eaeded;
+  transition-duration: 0.1s;
+
+  &:hover {
+    background-color: #cdcfcf;
+    transition-duration: 0.15s;
+  }
+
+  &:focus {
+    border: 2px solid #929494;
+  }
+}
+
+.orange {
+  background-color: #f0b27a;
+  transition-duration: 0.1s;
+
+  &:hover {
+    background-color: #d29c6b;
+    transition-duration: 0.15s;
+  }
+
+  &:focus {
+    border: 2px solid #b4855c;
+  }
+}
