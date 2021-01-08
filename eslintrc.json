@@ -36,7 +36,9 @@
     "arrow-parens": [
       "error",
       "as-needed"
-    ]
+    ],
+    "max-len": "off",
+    "prefer-const": "off"
   },
   "ignorePatterns": [
     "dist/",
