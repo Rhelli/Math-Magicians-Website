@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from '../button/Button';
+import Button from '../button/button';
 import styles from './buttonPanel.module.scss';
 
 const ButtonPanel = props => {
