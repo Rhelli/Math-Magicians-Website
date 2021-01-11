@@ -1,6 +1,7 @@
 import operate from './operate';
 
 const calculate = (dataObject, buttonName) => {
+  // eslint-disable-next-line prefer-const
   let { total, next, operation } = dataObject;
   let preCalc;
 
