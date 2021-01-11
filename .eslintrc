@@ -31,16 +31,17 @@
     ],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "import/extensions": "never",
+    "import/extensions": "off",
     "no-shadow": "off",
-    "max-len": "off",
-    "prefer-const": "off",
     "arrow-parens": [
       "error",
       "as-needed"
-    ]
+    ],
+    "prefer-const": "off",
+    "max-len": "off"
   },
   "ignorePatterns": [
     "dist/",
     "build/"
   ]
+}
