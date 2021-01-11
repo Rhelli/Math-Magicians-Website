@@ -37,8 +37,19 @@
       "error",
       "as-needed"
     ],
-    "prefer-const": "off",
-    "max-len": "off"
+    "max-len": [
+      "error",
+      {
+        "code": 925
+      }
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "all",
+        "ignoreReadBeforeAssign": false
+      }
+    ]
   },
   "ignorePatterns": [
     "dist/",
