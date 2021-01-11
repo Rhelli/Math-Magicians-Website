@@ -33,12 +33,12 @@
     "import/no-unresolved": "off",
     "import/extensions": "never",
     "no-shadow": "off",
+    "max-len": "off",
+    "prefer-const": "off",
     "arrow-parens": [
       "error",
       "as-needed"
-    ],
-    "max-len": "off",
-    "prefer-const": "off"
+    ]
   },
   "ignorePatterns": [
     "dist/",
