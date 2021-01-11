@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import renderer from 'react-test-renderer';
-import ButtonPanel from '../ButtonPanel';
+import ButtonPanel from '../buttonPanel';
 
 describe('The Button Panel Appearance', () => {
   it('Matches the Button Panel Snapshot', () => {
